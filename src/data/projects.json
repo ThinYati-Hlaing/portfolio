@@ -1,23 +1,23 @@
 [
     {
-      "title": "Todo App",
+      "title": "Todo List",
       "imageSrc": "projects/todo1.jpg",
       "description": "This is a project made to learn the latest languages by building an app.",
-      "demo": "https://tourmaline-kataifi-1e8508.netlify.app/",
+      "demo": "https://react-todo-examplelist.netlify.app",
       "source": "https://github.com/ThinYati-Hlaing/react-todo"
     },
     {
-      "title": "Invoice App",
+      "title": "Sales Invoice",
       "imageSrc": "projects/invoice1.jpg",
       "description": "This is a project made to learn the latest languages by building an app.",
       "demo": "https://poetic-churros-38d80d.netlify.app/",
       "source": "https://github.com/ThinYati-Hlaing/react-invoice"
     },
     {
-      "title": "Cart-Management App",
+      "title": "Ecommerce Shopping Cart",
       "imageSrc": "projects/cart.jpg",
       "description": "This is a project made to learn the latest languages by building an app.",
-      "demo": "https://cosmic-flan-6599a7.netlify.app/",
+      "demo": "https://ecommerce-react-carts.netlify.app/",
       "source": "https://github.com/ThinYati-Hlaing/cart-management"
     }
   ]

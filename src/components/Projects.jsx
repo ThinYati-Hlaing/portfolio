@@ -1,16 +1,14 @@
-
 import projects from "../data/projects.json";
 import ProjectCard from "./ProjectCard";
-import styles from "../components/Project/Projects.module.css"
 
 const Projects = () => {
     return (
-        <section className={styles.container} id="project">
-            <div className={styles.space}>
-                <h2 className={styles.title}>Projects</h2>
-                <div className={styles.projects}>
+        <section className="project-container" id="project">
+            <div>
+                <h2 className="project-title text-primary text-4xl p-5 tracking-wider">Projects</h2>
+                <div className="projects">
                     {projects.map((project, id) => {
-                        return <ProjectCard key={id} project={project} />;
+                        return <ProjectCard  key={id} project={project} />;
                     })}
                 </div>
             </div>

@@ -1,17 +1,20 @@
-import Nav from "./Nav";
 import Hero from "./Hero";
 import Contact from "./Contact";
 import Skill from "./Skill";
 import Projects from "./Projects";
+import Navbar from "./Navbar";
+import Header from "./Header";
+
 
 const Main = () => {
     return (
-        <div className=" bg-purple-600 ">
-            <Nav />
-            <Hero />
-            <Skill />
-            <Projects />
-            <Contact />
+        <div className="bg">
+            <Header/>
+            <Hero/>
+            <Navbar/>
+            <Skill/>
+            <Projects/>
+            <Contact/>
         </div>
     )
 }

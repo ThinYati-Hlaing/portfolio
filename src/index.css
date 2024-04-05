@@ -4,6 +4,133 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Rubik+Maps&family=Satisfy&display=swap");
 
-html {
-  scroll-behavior: smooth;
+@layer base {
+  .section {
+    @apply py-6 lg:py-20 lg:h-screen flex items-center;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-[#3d96a7] to-[#c625be] font-satisfy ml-3 text-5xl font-bold tracking-wider inline-block bg-clip-text text-transparent select-none;
+  }
+
+  .color-gradient{
+    @apply bg-gradient-to-r from-[#3d96a7] to-[#c625be] font-satisfy font-bold tracking-wider inline-block bg-clip-text text-transparent select-none;
+  }
+}
+
+.active:hover {
+  color: #000;
+  padding: 0.5rem;
+  border-radius: 50px;
+  background: linear-gradient(
+    92.23deg,
+    #5bcfe6 21.43%,
+    #ff56f6 60.63%,
+    #ff56f6 100%,
+    #5bbccf 117.04%
+  );
+}
+
+.gradient {
+  color: #fff;
+  background: linear-gradient(
+    92.23deg,
+    #4eacbf 21.43%,
+    #cb84c8 60.63%,
+    #cb84c8 100%,
+    #3bb3cb 117.04%
+  );
+}
+
+.bg {
+  background: linear-gradient(
+    92.23deg,
+    #22bddc 21.43%,
+    #cb84c8 60.63%,
+    #cb84c8 100%,
+    #5bbccf 117.04%
+  );
+}
+
+/* projects */
+
+.project-container {
+  position: relative;
+  /* margin-top: 75px; */
+  color: var(--color-text);
+  user-select: none;
+  margin-left: 10%;
+  margin-right: 10%;
+  /* margin-bottom: 20%; */
+  /* height: 100%; */
+}
+
+.project-title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  width: 100%;
+  height: 100%;
+}
+
+/* project Cards */
+
+.card-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #5b97f2 0%, #df31cd 100%);
+  box-shadow: 0 16px 14px 0 #04152d;
+  user-select: none;
+  width: 345px;
+  height: 400px;
+}
+
+.image {
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  padding-bottom: 5px;
+}
+
+/* .description {
+  margin-top: 4px;
+  font-size: 20px;
+  font-weight: 400;
+} */
+
+.links {
+  width: 100%;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  text-decoration: none;
+  /* color: rgb(133, 68, 139); */
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 100px;
+  padding: 4px;
+  color: black;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

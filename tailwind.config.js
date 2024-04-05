@@ -13,7 +13,11 @@ export default {
       rubik: ["Rubik Maps", "system-ui"],
       satisfy: ["Satisfy", "cursive"],
     },
-    extend: {},
+    extend: {
+      colors:{
+        primary: '#B809C3',
+      }
+    },
   },
   plugins: [],
 };
