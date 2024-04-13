@@ -9,7 +9,7 @@ const Hero = () => {
             id="home"
             className=" min-h-[80vh] lg:min-h-[70vh] flex flex-col lg:flex-row w-full justify-center items-center z-10 px-20 text-white"
         >
-            <div className="select-none">
+            <div className="select-none w-full">
                 <div className="">
                     <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: false }} transition={{ duration: 1 }} className=" text-3xl mb-5 font-normal text-slate-300">
 
@@ -78,12 +78,12 @@ const Hero = () => {
             </div>
 
 
-            <div div className="flex flex-auto justify-center items-center" >
+            <div div className="flex flex-auto justify-center items-center p-10" >
                 <motion.div initial={{ opacity: 0, y: -60 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: false }} transition={{ duration: 0.8 }}>
-                    <div className="w-full">
+                    <div className=" w-72 h-72">
                         <img
                             src={Profile}
-                            className="hidden lg:flex md:felx mx-auto rounded-full  w-80 h-80 p-2 gradient items-center drop-shadow-2xl"
+                            className=" mx-5 hidden lg:flex md:felx rounded-full w-72 h-72  p-2 gradient items-center drop-shadow-2xl"
                             alt="logo"
                         />
                     </div>
