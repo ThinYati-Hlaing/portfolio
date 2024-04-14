@@ -78,12 +78,12 @@ const Hero = () => {
             </div>
 
 
-            <div div className="flex flex-auto justify-center items-center p-10" >
+            <div div className="flex justify-center items-center p-10 sm:h-0 ssm:h-0" >
                 <motion.div initial={{ opacity: 0, y: -60 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: false }} transition={{ duration: 0.8 }}>
                     <div className=" w-72 h-72">
                         <img
                             src={Profile}
-                            className=" mx-5 hidden lg:flex md:felx rounded-full w-72 h-72  p-2 gradient items-center drop-shadow-2xl"
+                            className=" mx-5 hidden lg:flex rounded-full w-72 h-72  p-2 gradient items-center drop-shadow-2xl"
                             alt="logo"
                         />
                     </div>

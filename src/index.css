@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Rubik+Maps&family=Satisfy&display=swap");
 
 @layer base {
@@ -13,7 +18,7 @@
     @apply bg-gradient-to-r from-[#3d96a7] to-[#c625be] font-satisfy ml-3 text-5xl font-bold tracking-wider inline-block bg-clip-text text-transparent select-none;
   }
 
-  .color-gradient{
+  .color-gradient {
     @apply bg-gradient-to-r from-[#3d96a7] to-[#c625be] font-satisfy font-bold tracking-wider inline-block bg-clip-text text-transparent select-none;
   }
 }
@@ -59,8 +64,6 @@
   /* margin-top: 75px; */
   color: var(--color-text);
   user-select: none;
-  margin-left: 10%;
-  margin-right: 10%;
   /* margin-bottom: 20%; */
   /* height: 100%; */
 }
@@ -78,7 +81,6 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 28px;
   width: 100%;
   height: 100%;
 }

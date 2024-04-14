@@ -1,4 +1,3 @@
-import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from "react";
@@ -47,19 +46,19 @@ const Contact = () => {
     return (
         <footer
             id="contact"
-            className=" lg:section justify-around items-center  text-white "
+            className=" lg:section justify-around items-center  text-white"
         >
             <div initial={{ opacity: 0, x: -80 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: false }} transition={{ duration: 0.8 }} className=" flex justify-center items-center flex-col lg:flex-row select-none">
                 <motion.div initial={{ opacity: 0, x: -80 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: false }} transition={{ duration: 0.8 }} className="flex flex-col">
                     <h2 className=" text-4xl mb-12 text-primary  font-bold tracking-widest ">
                         Get in Touch
                     </h2>
-                    <p className=" text-2xl  text-primary font-medium tracking-widest">
+                    <p className=" text-2xl  text-primary font-medium tracking-wider">
                         Feel free to reach out!
                     </p>
                 </motion.div>
 
-                <motion.div initial={{ opacity: 0, x: 80 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: false }} transition={{ duration: 0.8 }} className="flex flex-col p-20">
+                <motion.div initial={{ opacity: 0, x: 80 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: false }} transition={{ duration: 0.8 }} className="flex flex-col px-20 py-14">
                     {/* <div className="flex mb-5 gap-4">
                         <FaEnvelope size={38} className="border-4  border-indigo-200  bg-white text-purple-600 rounded-full" />
                         <a href="thinyatihlaing6@gmail.com" target="_blank" rel="noopener noreferrer" >thinyatihlaing6@gmail.com</a>

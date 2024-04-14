@@ -9,7 +9,7 @@ const Skill = () => {
     return (
         <section
             id="skill"
-            className=" section flex justify-center items-center lg:flex-row md:flex-row ssm:flex-col p-16 text-white select-none"
+            className=" section flex justify-center items-center lg:flex-row md:flex-row ssm:flex-col px-16 text-white select-none"
         >
             <div className="flex flex-col lg:w-1/2 ssm:w-fit select-none justify-center items-center mb-12">
                 <h1 className="text-4xl p-16 text-center text-primary flex items-center justify-center  font-bold tracking-widest">Experiences</h1>
@@ -43,7 +43,7 @@ const Skill = () => {
 
                     <ChakraProvider>
                         <Box>
-                            <div className=" grid lg:grid-cols-3 grid-cols-3 md:gap-8 md:p-4 lg:gap-20 text-lg color-gradient">
+                            <div className=" grid lg:grid-cols-3 grid-cols-3 md:gap-7 md:p-4 lg:gap-20 text-lg color-gradient">
                                 <div className="" >
                                     <CircularProgress isIndeterminate value={80} size="110px" thickness="6px" color="orange.400">
                                         <CircularProgressLabel className="text-purple-300">80%</CircularProgressLabel>
