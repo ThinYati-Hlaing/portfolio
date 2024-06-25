@@ -7,7 +7,7 @@ const ProjectCard = ({
     project: { title, imageSrc, description, demo, source },
 }) => {
     return (
-        <section className=" section " id="project">
+        <section className=" section w-[600px] flex justify-center mx-auto" id="project">
             <motion.div initial={{ opacity: 0, y: 60 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: false }} transition={{ duration: 0.8 }} className="card-container group relative overflow-hidden border-2 border-white/60 rounded-xl lg:mb-28 mb-5">
                 <div className=" group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
                 <img
