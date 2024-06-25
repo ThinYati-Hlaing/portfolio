@@ -16,8 +16,9 @@ const ProjectCard = ({
                     className="image group-hover:scale-105 transition-all duration-500 h-full p-3 m-2 border rounded-lg bg-white"
 
                 />
+                <p className="px-5">{description}</p>
                 <h3 className="card-title  absolute -bottom-full group-hover:bottom-16 left-7 text-primary transition-all duration-500 z-50">{title}</h3>
-                <FaCaretUp className="text-[60px] text-fuchsia-800 flex justify-center items-center mx-auto" />
+                <FaCaretUp className="text-[50px] text-fuchsia-800 flex justify-center items-center mx-auto" />
                 <div className="links absolute -bottom-full group-hover:bottom-5 transition-all duration-500 z-50">
                     <a href={demo} className="link bg" target="_blank" >
                         <SiNetlify className=" text-3xl" />

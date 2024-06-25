@@ -2,28 +2,28 @@
     {
       "title": "Todo List",
       "imageSrc": "projects/list.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "This project involves a to-do list that allows users to add, edit, and delete task functionalities",
       "demo": "https://react-todo-examplelist.netlify.app",
       "source": "https://github.com/ThinYati-Hlaing/react-todo"
     },
     {
       "title": "Sales Invoice",
       "imageSrc": "projects/invoices.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "This project involves an invoice app that allows users to select products, adjust prices on hover, delete items, and add new products dynamically.",
       "demo": "https://poetic-churros-38d80d.netlify.app/",
       "source": "https://github.com/ThinYati-Hlaing/react-invoice"
     },
     {
       "title": "Shopping Cart",
       "imageSrc": "projects/ecommerce.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "This project involves an e-commerce shopping cart that allows users to add, update, and remove items.",
       "demo": "https://ecommerce-shoppingcarts.netlify.app/",
       "source": "https://github.com/ThinYati-Hlaing/cart-management"
     },
     {
       "title": "Contact App",
       "imageSrc": "projects/contactapp.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "This project involves a contact creation form that allows users to add, edit, and delete contact details.",
       "demo": "https://react-contact-page-app.netlify.app/",
       "source": "https://github.com/ThinYati-Hlaing/Contact-App"
     }
