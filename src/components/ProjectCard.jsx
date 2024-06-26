@@ -17,14 +17,12 @@ const ProjectCard = ({
 
                 />
                 <p className="px-5">{description}</p>
-                <h3 className="card-title  absolute -bottom-full group-hover:bottom-16 left-7 text-primary transition-all duration-500 z-50">{title}</h3>
-                <FaCaretUp className="text-[50px] text-fuchsia-800 flex justify-center items-center mx-auto" />
-                <div className="links absolute -bottom-full group-hover:bottom-5 transition-all duration-500 z-50">
-                    <a href={demo} className="link bg" target="_blank" >
-                        <SiNetlify className=" text-3xl" />
-                    </a>
-                    <a href={source} className="link bg" target="_blank">
-                        <FaCode className="flex justify-center items-center" />
+                <h3 className="card-title  absolute -bottom-full group-hover:bottom-16 left-7 text-gray-400 transition-all duration-500 z-50">{title}</h3>
+                <FaCaretUp className="text-[60px] text-fuchsia-800 flex justify-center items-center mx-auto" />
+                <div className="flex w-full justify-center items-center px-16 links bg absolute -bottom-full group-hover:bottom-5 transition-all duration-500 z-50">
+                <p className="text-sm flex justify-center items-center font-light tracking-widest">Guthub Repository :</p>
+                    <a href={source} className="link" target="_blank">
+                        <FaCode className=" text-[30px]" />
                     </a>
                 </div>
             </motion.div>

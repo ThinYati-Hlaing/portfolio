@@ -10,7 +10,7 @@ const Header = () => {
         <section className=" py-3 px-20 mb-4">
             <div className=" container ">
                 <div className=" flex items-center lg:flex-row">
-                    <img className="  mr-3 w-32 h-32 p-1 rounded-full gradient" src={Profile} alt="" />
+                    <img className="  mr-3 w-16 h-16 p-1 rounded-full gradient" src={Profile} alt="" />
                     <a a href=""
                         className="text-gradient"
                     >
