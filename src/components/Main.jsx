@@ -8,7 +8,7 @@ import Header from "./Header";
 
 const Main = () => {
     return (
-        <div className="bg">
+        <div className="bg" >
             <Header/>
             <Hero/>
             <Navbar/>
