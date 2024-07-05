@@ -48,7 +48,7 @@ const Contact = () => {
             id="contact"
             className=" lg:section justify-around items-center  text-white"
         >
-            <div initial={{ opacity: 0, x: -80 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: false }} transition={{ duration: 0.8 }} className=" flex justify-center items-center flex-col lg:flex-row select-none">
+            <div initial={{ opacity: 0, x: -80 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: false }} transition={{ duration: 0.8 }} className=" flex justify-center items-center flex-col lg:flex-row select-none px-5">
                 <motion.div initial={{ opacity: 0, x: -80 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: false }} transition={{ duration: 0.8 }} className="flex flex-col">
                     <h2 className=" text-4xl mb-12 text-primary  font-bold tracking-widest ">
                         Get in Touch
