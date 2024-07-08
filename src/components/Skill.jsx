@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import skills from "../../src/data/skills.json";
 import { getImageUrl } from "../../src/utils";
 import { motion } from "framer-motion";
-import { ChakraProvider, Box, CircularProgress, CircularProgressLabel } from '@chakra-ui/react';
+// import { ChakraProvider, Box, CircularProgress, CircularProgressLabel } from '@chakra-ui/react';
 
 const Skill = () => {
 
