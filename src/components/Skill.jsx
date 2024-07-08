@@ -35,7 +35,7 @@ const Skill = () => {
                 </motion.div>
             </div>
 
-            <div className=" flex flex-col
+            {/* <div className=" flex flex-col
              lg:w-1/2 ssm:w-fit select-none justify-center items-center">
                 <h1 className=" text-4xl p-3 text-center text-primary font-bold tracking-widest mb-8">Skills</h1>
 
@@ -88,7 +88,7 @@ const Skill = () => {
 
                 </motion.div>
 
-            </div>
+            </div> */}
 
 
 
