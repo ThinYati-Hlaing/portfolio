@@ -8,10 +8,10 @@ const Skill = () => {
     return (
         <section
             id="skill"
-            className=" section w-6/6 justify-center items-center mx-auto text-white select-none px-10"
+            className=" section w-6/6 h-screen justify-center items-center mx-auto text-white select-none px-10"
         >
             <div className="">
-                <h1 className="text-4xl text-center pb-9 text-primary flex items-center justify-center  font-bold tracking-widest">
+                <h1 className="text-4xl text-center pb-8 text-primary flex items-center justify-center  font-bold tracking-widest">
                     My Skills
                 </h1>
 
@@ -53,27 +53,27 @@ const Skill = () => {
                         >
                             <div className=" flex flex-wrap justify-center items-center flex-row gap-8 color-gradient">
                                 <div className="flex flex-col items-center">
-                                    <Progress type="circle" percent={85} size={90} />
-                                    <p className="p-1">HTML</p>
+                                    <Progress type="circle" percent={85} size={90} strokeColor="#AF47D2" />
+                                    <p className="p-1 ">HTML</p>
                                 </div>
 
                                 <div className="flex flex-col items-center">
-                                    <Progress type="circle" percent={75} size={90} />
+                                    <Progress type="circle" percent={75} size={90} strokeColor="#AF47D2" />
                                     <p className="p-1">CSS</p>
                                 </div>
 
                                 <div className="flex flex-col items-center">
-                                    <Progress type="circle" percent={70} size={90} />
+                                    <Progress type="circle" percent={70} size={90} strokeColor="#AF47D2" />
                                     <p className="p-1">Tailwind</p>
                                 </div>
 
                                 <div className="flex flex-col items-center">
-                                    <Progress type="circle" percent={65} size={90} />
+                                    <Progress type="circle" percent={65} size={90} strokeColor="#AF47D2" />
                                     <p className="p-1">JavaScript</p>
                                 </div>
 
                                 <div className="flex flex-col items-center">
-                                    <Progress type="circle" percent={60} size={90} />
+                                    <Progress type="circle" percent={60} size={90} strokeColor="#AF47D2" />
                                     <p className="p-1">React</p>
                                 </div>
                             </div>
