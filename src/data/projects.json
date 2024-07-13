@@ -4,7 +4,7 @@
       "imageSrc": "projects/list.png",
       "description": "This project involves a to-do list that allows users to add, edit, and delete task functionalities",
       "source": "https://github.com/ThinYati-Hlaing/React-Todo-List",
-      "demo": "https://todo-list-weld-one.vercel.app/"
+      "demo": "https://react-todo-list-items.vercel.app/"
     },
     {
       "title": "Sales Invoice",
