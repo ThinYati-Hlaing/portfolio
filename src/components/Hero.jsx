@@ -91,7 +91,7 @@ const Hero = () => {
                         </div>
                         <div>
                             <a
-                                href="https://github.com/ThinYati-Hlaing"
+                                href="https://www.linkedin.com/in/thin-yati-hlaing-38594624a/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
