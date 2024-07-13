@@ -3,24 +3,28 @@
       "title": "Todo List",
       "imageSrc": "projects/list.png",
       "description": "This project involves a to-do list that allows users to add, edit, and delete task functionalities",
-      "source": "https://github.com/ThinYati-Hlaing/React-Todo-List"
+      "source": "https://github.com/ThinYati-Hlaing/React-Todo-List",
+      "demo": "https://todo-list-weld-one.vercel.app/"
     },
     {
       "title": "Sales Invoice",
       "imageSrc": "projects/invoices.png",
       "description": "This project involves an invoice app that allows users to select products, adjust prices on hover, delete items, and add new products dynamically.",
-      "source": "https://github.com/ThinYati-Hlaing/react-invoices"
+      "source": "https://github.com/ThinYati-Hlaing/react-invoices",
+      "demo": "https://invoice-items.vercel.app/"
     },
     {
       "title": "Shopping Cart",
       "imageSrc": "projects/ecommerce.png",
       "description": "This project involves an e-commerce shopping cart that allows users to add, update, and remove items.",
-      "source": "https://github.com/ThinYati-Hlaing/react-EcommerceShoppingcart"
+      "source": "https://github.com/ThinYati-Hlaing/react-EcommerceShoppingcart",
+      "demo": "https://ecommerce-shoppingcart.vercel.app/"
     },
     {
       "title": "Contact App",
       "imageSrc": "projects/contactapp.png",
       "description": "This project involves a contact creation form that allows users to add, edit, and delete contact details.",
-      "source": "https://github.com/ThinYati-Hlaing/Contact-App"
+      "source": "https://github.com/ThinYati-Hlaing/Contact-App",
+      "demo": "https://contact-form-app.vercel.app/"
     }
   ]

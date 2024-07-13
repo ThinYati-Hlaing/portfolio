@@ -19,11 +19,11 @@ const ProjectCard = ({
                 <p className="px-5">{description}</p>
                 <h3 className="card-title  absolute -bottom-full group-hover:bottom-16 left-7 text-gray-400 transition-all duration-500 z-50">{title}</h3>
                 <FaCaretUp className="text-[60px] text-fuchsia-800 flex justify-center items-center mx-auto" />
-                <div className="flex w-full justify-center items-center px-16 links bg absolute -bottom-full group-hover:bottom-5 transition-all duration-500 z-50">
-                <p className="text-sm flex justify-center items-center font-light tracking-widest">Guthub Repository :</p>
-                    <a href={source} className="link" target="_blank">
-                        <FaCode className=" text-[30px]" />
-                    </a>
+                <div className="flex w-full links justify-center items-center  absolute -bottom-full group-hover:bottom-5 transition-all duration-500 z-50">
+                {/* <p className="text-sm flex justify-center items-center font-light tracking-widest">Guthub Repository :</p> */}
+                        {/* <FaCode className=" text-[30px]" /> */}
+                        <a href={source} className="bg w-22 p-3 text-sm font-semibold rounded-full flex justify-center items-center" target="_blank">Github Repo</a>
+                        <a href={demo} className="bg w-22 p-3 text-sm font-semibold rounded-full flex justify-center items-center" target="_blank">Live demo</a>
                 </div>
             </motion.div>
 
